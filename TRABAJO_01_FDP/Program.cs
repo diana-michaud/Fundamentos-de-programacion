@@ -14,4 +14,6 @@ Console.Write("/ Yoda \"La rana\" /\n");
 Console.Write("\\----------------\\\n");
 Console.Write("/ HP\t100      /\n");
 Console.Write("\\ Mp\t50       \\\n");
+Console.WriteLine("/ Gold\t2,000    /");
+Console.Write("\\ Exp\t400      \\");
 

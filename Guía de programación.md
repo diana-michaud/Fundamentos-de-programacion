@@ -17,5 +17,6 @@ Una secuencia de escape se usa para representar caracteres especiales, saltos de
 ```csharp
 \n - Crea un salto de linea.
 \t - Inserta una tabulación horizontal (Espacio grande).
-\" o \' - Permite usar comillas dobles o simples dentro de un texto delimitado dentro de ellas sin necesidad de romper el código.
+\" o \' - Permite usar comillas dobles o simples dentro de un texto delimitado dentro de ellas sin 
+necesidad de romper el código.
 \\ - Muestra una barra invertida en la pantalla.

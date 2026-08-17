@@ -9,4 +9,6 @@ Console.Write("Hola");
 Console.Write(", ");
 Console.Write("Diana!");
 ```
+-----
 
+Secuencias de escape

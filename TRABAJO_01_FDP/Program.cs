@@ -7,3 +7,11 @@ Console.WriteLine("Hello, World!");
 Console.Write("Hola");
 Console.Write(", ");
 Console.Write("Diana!");
+
+Console.Write("n\n\n");
+// Generar un programa que muestre atributos en forma de tabla con un boder
+Console.Write("/ Yoda \"La rana\" /\n");
+Console.Write("\\----------------\\\n");
+Console.Write("/ HP\t100      /\n");
+Console.Write("\\ Mp\t50       \\\n");
+

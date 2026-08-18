@@ -24,5 +24,13 @@ necesidad de romper el código.
 -----
 
 ### COLORES DE FONDO Y TEXTO
-
-
+Los colores de fondo y texto sirven para dar alertas visuales instantáneas (como rojo para error o verde para éxito) y guiar la vista del usuario para que el programa sea más fácil de leer.
+```csharp
+- Console.ForegroundColor - Sirve para cambiar el color del texto. Todo lo escrito en la linea siguiente 
+de este comando, tendrá el color que elija.
+- Console.BackgroundColor - Sirve para cambiar el color del fondo de las letras. Funciona como un 
+marcador y resaltador de textos.
+- Console.Color.(Color) - Es la lista de colores predefinidos. Por ejemplo: "Yellow", "Red", "Dark blue",
+"Green", etc.
+- Console.ReserColor() - Apaga el color que estabas usando y regrsa al color base. Te permite pintar una 
+palabra de un color y asegurarte de que la siguiente palabra vuelva a la normalidad automáticamente.

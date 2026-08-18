@@ -8,7 +8,7 @@ Console.Write("Hola");
 Console.Write(", ");
 Console.Write("Diana!");
 
-Console.Write("n\n\n");
+Console.Write("\n\n\n");
 // Generar un programa que muestre atributos en forma de tabla con un boder
 Console.Write("/ Yoda \"La rana\" /\n");
 Console.Write("\\----------------\\\n");
@@ -18,7 +18,7 @@ Console.WriteLine("/ Gold\t2,000    /");
 Console.Write("\\ Exp\t400      \\");
 
 
-Console.Write("n\n\n");
+Console.Write("\n\n\n");
 // Bandera de México en texto y color
 Console.WriteLine("Bandera de México");
 
@@ -33,13 +33,16 @@ Console.ResetColor();
 Console.WriteLine();
 
 // Bandera de México en fondo
-Console.BackgroundColor = ConsoleColor.Black;
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.DarkGreen;
 Console.Write("ME");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.White;
 Console.Write("XI");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.DarkRed;
 Console.Write("CO");
+Console.ResetColor();
 
 
 //Generar 5 banderas en texto y 5 en fondo, de 5 países diferentes
@@ -47,7 +50,7 @@ Console.Write("CO");
 //Commit
 
 
-Console.Write("n\n\n");
+Console.Write("\n\n\n");
 // Bandera de Bolivia en texto y color
 Console.WriteLine("Bandera de Bolivia");
 
@@ -62,16 +65,19 @@ Console.ResetColor();
 Console.WriteLine();
 
 // Bandera de Bolivia en fondo
-Console.BackgroundColor = ConsoleColor.Black;
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Red;
 Console.Write("BO");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.Write("LI");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Green;
 Console.Write("VIA");
+Console.ResetColor();
 
 
-Console.Write("n\n\n");
+Console.Write("\n\n\n");
 // Bandera de Colombia en texto y color
 Console.WriteLine("Bandera de Colombia");
 
@@ -86,16 +92,19 @@ Console.ResetColor();
 Console.WriteLine();
 
 // Bandera de Colombia en fondo
-Console.BackgroundColor = ConsoleColor.Black;
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.Write("CO");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.DarkBlue;
 Console.Write("LOM");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.DarkRed;
 Console.Write("BIA");
+Console.ResetColor();
 
 
-Console.Write("n\n\n");
+Console.Write("\n\n\n");
 // Bandera de Jamaica en texto y color
 Console.WriteLine("Bandera de Jamaica");
 
@@ -110,16 +119,18 @@ Console.ResetColor();
 Console.WriteLine();
 
 // Bandera de Jamaica en fondo
-Console.BackgroundColor = ConsoleColor.Black;
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Black;
 Console.Write("JA");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.Write("MAI");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Green;
 Console.Write("CA");
+Console.ResetColor();
 
-
-Console.Write("n\n\n");
+Console.Write("\n\n\n");
 // Bandera de Estonia en texto y color
 Console.WriteLine("Bandera de Estonia");
 
@@ -134,15 +145,18 @@ Console.ResetColor();
 Console.WriteLine();
 
 // Bandera de Estonia en fondo
-Console.BackgroundColor = ConsoleColor.Black;
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.Write("ES");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Black;
 Console.Write("TO");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.White;
 Console.Write("NIA");
+Console.ResetColor();
 
-Console.Write("n\n\n");
+Console.Write("\n\n\n");
 // Bandera de Angola en texto y color
 Console.WriteLine("Bandera de Estonia");
 
@@ -156,11 +170,14 @@ Console.Write("LA");
 Console.ResetColor();
 Console.WriteLine();
 
-// Bandera de Jamaica en fondo
-Console.BackgroundColor = ConsoleColor.Black;
+// Bandera de Angola en fondo
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Red;
 Console.Write("AN");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.Write("GO");
+Console.BackgroundColor = ConsoleColor.Gray;
 Console.ForegroundColor = ConsoleColor.Black;
 Console.Write("LA");
+Console.ResetColor();

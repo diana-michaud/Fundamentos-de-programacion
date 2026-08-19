@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRABAJO_01_FDP", "TRABAJO_01_FDP\TRABAJO_01_FDP.csproj", "{6378DC1F-1A03-4A25-BF53-3936D4187A09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VARIABLES Y TIPOS DE DATO", "VARIABLES Y TIPOS DE DATO\VARIABLES Y TIPOS DE DATO.csproj", "{82D5EBD2-7ABE-4C94-B12A-8C0C5E7226ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6378DC1F-1A03-4A25-BF53-3936D4187A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6378DC1F-1A03-4A25-BF53-3936D4187A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6378DC1F-1A03-4A25-BF53-3936D4187A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D5EBD2-7ABE-4C94-B12A-8C0C5E7226ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D5EBD2-7ABE-4C94-B12A-8C0C5E7226ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D5EBD2-7ABE-4C94-B12A-8C0C5E7226ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D5EBD2-7ABE-4C94-B12A-8C0C5E7226ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

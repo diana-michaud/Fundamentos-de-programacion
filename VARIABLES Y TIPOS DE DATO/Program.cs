@@ -17,7 +17,6 @@ Console.WriteLine("MaxValueSbyte: " + maxValueSbyte);
 // 2. Multiplicar el valor máximo por 10 y mostrar el resultado
 // 3. Multiplicar el valor mínimo por 10 y mostrar el resultado
 
-
 // TIPO DE ENTERO: Byte
 
 Byte minValueByte = byte.MinValue;
@@ -29,7 +28,6 @@ Console.WriteLine("MaxValue: " + maxValueByte);
 
 Console.WriteLine(Byte.MinValue * 10);
 Console.WriteLine(Byte.MaxValue * 10);
-
 
 // TIPO DE ENTERO: Int
 
@@ -43,4 +41,47 @@ Console.WriteLine("MaxValue: " + maxValueInt);
 Console.WriteLine(minValueInt * 10);
 Console.WriteLine(maxValueInt * 10);
 
+// Genera un programa en donde utilices 5 variables y 5 constantes de diferentes
+// tipos de datos.
+// Utiliza una mezcla de:
+// - Asignación
+// - Declaración
+// - Asignación + declaración
+// Imprime los valores de las variables y constantes.
+
+Console.WriteLine("\n\n");
+Console.WriteLine("VARIABLES Y CONSTANTES");
+Console.WriteLine("----------------------");
+
+// Variables
+
+Console.WriteLine("- 5 variables");
+int    anio          = 2026;
+string paísDeOrigen  = "México";
+float  estatura      = 1.73f;
+char   genero        = 'F';
+bool   tieneMascotas = true;
+
+Console.WriteLine("Año: " + anio);
+Console.WriteLine("País de origen: " + paísDeOrigen);
+Console.WriteLine("Estatura: " + estatura);
+Console.WriteLine("Género: " + genero);
+Console.WriteLine("¿Tiene mascotas?: " + tieneMascotas);
+Console.WriteLine("----------------------");
+
+// Constantes
+
+Console.WriteLine("- 5 constantes");
+
+const int    year          = 2026;
+const string originCountry = "México";
+const float  height        = 1.73f;
+const char   gender        = 'F';
+const bool   hasPets       = true;
+
+Console.WriteLine("Año: " + year);
+Console.WriteLine("País de origen: " + originCountry);
+Console.WriteLine("Estatura: " + height);
+Console.WriteLine("Género: " + gender);
+Console.WriteLine("¿Tiene mascotas?: " + hasPets);
 

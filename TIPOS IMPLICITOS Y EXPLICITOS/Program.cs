@@ -32,4 +32,18 @@ const sbyte MAX_VALUE_SBYTE = 127;
 Console.WriteLine("Tipo de MAX_VALUE_sbyte: " + MAX_VALUE_SBYTE.GetType());
 const string MIN_VALUE_STRING = "Papoi";
 Console.WriteLine("Tipo de string: " + MIN_VALUE_STRING.GetType());
+Console.WriteLine("------------------------");
+Console.WriteLine("------------------------");
+
+// Lectura de pantalla
+Console.WriteLine("\n\n\n");
+
+Console.WriteLine("Nombre");
+string nombre = Console.ReadLine();
+
+Console.WriteLine("Apellido");
+string apellido = Console.ReadLine();
+
+Console.WriteLine("Hola " + nombre + " " + apellidoD);
+
 

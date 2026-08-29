@@ -44,6 +44,6 @@ string nombre = Console.ReadLine();
 Console.WriteLine("Apellido");
 string apellido = Console.ReadLine();
 
-Console.WriteLine("Hola " + nombre + " " + apellidoD);
+Console.WriteLine("Hola " + nombre + " " + apellido);
 
 

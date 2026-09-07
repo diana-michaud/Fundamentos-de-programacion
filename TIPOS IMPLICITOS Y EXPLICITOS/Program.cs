@@ -46,4 +46,19 @@ string apellido = Console.ReadLine();
 
 Console.WriteLine("Hola " + nombre + " " + apellido);
 
+// EJERCICIO
+
+Console.Write("Escribe tu nombre: ");
+string NOMBRE = Console.ReadLine();
+Console.WriteLine("Hola " + nombre);
+
+//TRYPARSE
+
+Console.Write("Escribe tu edad: ");
+string entrada = Console.ReadLine();
+
+// TryParse intenta convertir 'entrada' y guarda el número en 'edad'
+int  edad;
+bool funciono = int.TryParse(entrada, out edad);
+
 

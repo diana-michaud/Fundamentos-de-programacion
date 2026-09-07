@@ -1,13 +1,21 @@
 ﻿# GUÍA DE PROGRAMACIÓN
 
-### Para qué sirve `Console.Write` y `Console.WriteLine`
-`Console.Write` y `Console.WriteLine` sirven para mostrar cualquier texto en la pantalla. La diferencia principal es que `Console.Write` deja el cursor en la misma linea, y `Console.WriteLine` te lleva a la siguiente linea de forma automática en cuanto terminas de escribir.
+### Para qué sirve `Console.Write`, `Console.WriteLine` y `Console.ReadLine`
+`Console.Write` y `Console.WriteLine` sirven para mostrar cualquier texto en la pantalla. La diferencia principal es que `Console.Write` deja el cursor en la misma linea, y `Console.WriteLine` te lleva a la siguiente linea de forma automática en cuanto terminas de escribir. `Console.ReadLine` sirve para que el usuario pueda escribir algo en el programa desde su teclado.
 
 CÓDIGO
 ```csharp
 Console.Write("Hola");
 Console.Write(", ");
 Console.Write("Diana!");
+
+Console.WriteLine("Hola, Diana.");
+Console.WriteLine("Bienvenida#");
+
+Console.Write("Escribe tu nombre: ");
+string nombre = Console.ReadLine();
+Console.WriteLine("Hola " + nombre);
+
 ```
 -----
 
@@ -115,6 +123,20 @@ double _ ±5.0×10−324 a ±1.7×10308
 decimal _ ±1.0x10-28 a ±7.9228x1028 
 ```
 -----
+### TRYPARSE
+ Convierte un texto (string) a número entero (int) sin romper el programa si se escriben letras.
+```
+Ejemplo:
+
+Console.Write("Escribe tu edad: ");
+string entrada = Console.ReadLine();
+
+// TryParse intenta convertir 'entrada' y guarda el número en 'edad'
+int edad;
+bool funciono = int.TryParse(entrada, out edad);
+```
+-----
+
 #### BOOLEANOS
 Se usa en condicionales
 ```csharp
@@ -216,6 +238,7 @@ NOT ! Convierte el valor es su opuesto -true- <-> -false-
 ¿Qué hacer si mi programa no funciona?
 
 ```csharp
-Lineas rojas (Errores) = El código está mal escrito y son errores críticos, puede ser algo como que falte un parentesis, comillas, ortografía, etc.
+Lineas rojas (Errores) = El código está mal escrito y son errores críticos, puede ser algo como que falte un 
+parentesis, comillas, ortografía, etc.
 Lineas amarillas (Advertencias) = Pueden causar problemas o tal vez no, pero no evitan que el programa corra.
 Lineas verdes (Sugerencias) = Sugerencias o recomendaciones de escritura o forma de aplciar los estandares.

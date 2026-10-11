@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIPOS IMPLICITOS Y EXPLICIT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRABAJO_04_FDP", "TRABAJO_04_FDP\TRABAJO_04_FDP.csproj", "{7CFBDAFB-4DBD-44B8-B32E-26F3A0CC4C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio14_E7", "Ejercicio14_E7\Ejercicio14_E7.csproj", "{A297573B-3C69-463A-A970-0E6887758748}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7CFBDAFB-4DBD-44B8-B32E-26F3A0CC4C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CFBDAFB-4DBD-44B8-B32E-26F3A0CC4C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CFBDAFB-4DBD-44B8-B32E-26F3A0CC4C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A297573B-3C69-463A-A970-0E6887758748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A297573B-3C69-463A-A970-0E6887758748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A297573B-3C69-463A-A970-0E6887758748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A297573B-3C69-463A-A970-0E6887758748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
